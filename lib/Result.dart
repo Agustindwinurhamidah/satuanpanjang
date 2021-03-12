@@ -13,13 +13,13 @@ class Result extends StatelessWidget {
   Widget build(BuildContext context) {
     return
       Container(
-        margin: EdgeInsets.only(top: 20,bottom: 20),
+        margin: EdgeInsets.only(top: 15,bottom: 15),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Hasil",style: TextStyle(fontSize: 20),),
+            Text("Hasil",style: TextStyle(fontSize: 20),),//menampilkan text hasil 
             Text(
-              result.toStringAsFixed(1),
+              result.toString(),
               style: TextStyle(fontSize: 30),
             )
          ],

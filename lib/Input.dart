@@ -11,10 +11,10 @@ class Input extends StatelessWidget{
   @override
 Widget build(BuildContext context){
   return TextFormField(
-    decoration:InputDecoration(hintText: "Masukkan angka"),
+    decoration:InputDecoration(hintText: "Masukkan angka"),//jika kita belom input angka maka terdapat tulisan masukkan angka jika sudah input maka tulisan masukkan angka akan hilang
     inputFormatters: [FilteringTextInputFormatter.digitsOnly],
     controller: satuan,
-    keyboardType: TextInputType.number,
+    keyboardType: TextInputType.number,//input hanya angka
   );
 }
 }
