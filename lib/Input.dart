@@ -13,7 +13,7 @@ Widget build(BuildContext context){
   return TextFormField(
     decoration:InputDecoration(hintText: "Masukkan angka"),//jika kita belom input angka maka terdapat tulisan masukkan angka jika sudah input maka tulisan masukkan angka akan hilang
     inputFormatters: [FilteringTextInputFormatter.digitsOnly],
-    controller: satuan,
+    controller: satuan,//memanggil kontrol satuan
     keyboardType: TextInputType.number,//input hanya angka
   );
 }

@@ -7,7 +7,7 @@ class Riwayat extends StatelessWidget {
     @required this.listViewItem,
   }) : super(key: key);
 
-  final List<String> listViewItem;
+  final List<String> listViewItem;//memanggil listitem
 
   @override
   Widget build(BuildContext context) {
